@@ -1,0 +1,103 @@
+#Logo2 {
+    display: flex;
+    float: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    border: 2px solid rgb(5, 4, 4);
+    margin-right: 50px;
+    margin-top: -50px;
+}
+#Logo1{
+    display: flex;
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    border: 2px solid rgb(5, 4, 4);
+    margin-right: 50px;
+    margin-top: -50px;
+}
+#Encabezado{
+    background: rgb(151, 154, 154);
+    border:5px solid rgb(12, 10, 10);
+    width: center 1175px;
+    padding: 3%;
+    border-radius: 30px;
+    box-shadow: 0.1em 0.1em 0.05em rgb(31, 196, 40);
+}
+#titulo{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    text-shadow:0.1em 0.1em 0.03em rgb(31, 196, 40);
+}
+ul {
+    text-align: center;
+    overflow:visible;
+    border: 3px sold #0a0808;
+    background-color: slategrey;
+    border-radius: 30px;
+    width: center 1175px;
+    box-shadow: 0.1em 0.1em 0.03em rgb(88, 255, 172);
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px;
+    font: bold 15px 'Times New Roman';
+
+}
+
+article {
+    float:left;
+    font-family:'Times New Roman';
+    color: white;
+    background: rgb(91, 95, 95);
+    border:5px solid rgb(12, 10, 10);
+    width: 700px;
+    height: 300px;
+    padding: 2%;
+    text-align:justify;
+    border-radius: 30px;
+    box-shadow: 0.1em 0.1em 0.04em rgb(31, 196, 40);
+    margin: 10px;
+}
+
+#historia, #definicion, #caracteristicas, #torneos {
+    font-family:monospace;
+    font-size: 30px;
+    text-shadow:0.1em 0.1em 0.02em rgb(31, 196, 40);
+}
+
+.columna {
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: rgb(91, 95, 95);
+    border:5px solid rgb(12, 10, 10);
+    width: 300px;
+    height: 600px;
+    padding: 5%;
+    text-align:center;
+    border-radius: 30px;
+    box-shadow: 0.1em 0.1em 0.04em rgb(31, 196, 40);
+    margin: 10px;
+}
+#mejores, #momentos {
+    font-family:monospace;
+    font-size: 30px;
+    text-shadow:0.1em 0.1em 0.02em rgb(31, 196, 40);
+}
+
+.pie {
+    clear: both;
+    text-align: center;
+    overflow:visible;
+    border: 3px sold #0a0808;
+    background-color: slategrey;
+    border-radius: 30px;
+    width: center 1175px;
+    box-shadow: 0.1em 0.1em 0.03em rgb(88, 255, 172);
+    margin: 10px;
+}
